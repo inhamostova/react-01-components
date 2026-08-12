@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import { Table, DataH, Row, Data } from './TransactionHistory.styled';
-import { type } from '@testing-library/user-event/dist/type';
 
 export const TransactionHistory = ({ items }) => {
   return (
