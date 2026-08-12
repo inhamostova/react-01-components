@@ -32,7 +32,7 @@ export const Image = styled.img`
 `;
 
 export const Name = styled.p`
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 24px;
 `;
 

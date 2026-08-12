@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import PropTypes from 'prop-types';
 
 export const Item = styled.li`
   width: 200px;
@@ -20,3 +21,7 @@ export const Status = styled.span`
     return status ? 'green' : 'red';
   }};
 `;
+
+Status.propTypes = {
+  status: PropTypes.bool.isRequired,
+};
